@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    /* background-image: url("images/birthday.svg"); */
+    color: rgb(0, 0, 0);
+    
+
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    padding-left: 2rem;
+    background-color: rgba(15, 126, 52, 0.5);
+}
+
+input{
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin: auto;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    padding: 0.8rem;
+}
+
+.output-box{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+label{
+    margin: auto;
+    padding-top: 1rem;
+}
+
+#output-box{
+    display: block;
+    /* background-color: black; */
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+#check-number{
+    margin-top:1.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.9rem;
+    
+}
+
+p{
+    margin: auto;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+img{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 5rem;
+}
