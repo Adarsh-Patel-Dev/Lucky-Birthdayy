@@ -5,30 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Birthday</title>
+
+
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     
     <div class="container">
         <h1>Is your Birthday Lucky?</h1>
-        <p>Enter your date of birth and lucky number to continue... </p>
+       <div class="notice">
+           <h3>PRIVACY NOTICE<button id= "clos">❌</button></h3>
+           <em>We don't collect your data</em>
+       </div>
+
+       <p>Enter your date of birth and lucky number to continue... </p>
+
+         
+       
      <label for="date-of-birth">Date of Birth</label>
      <input type="date" id="date-of-birth">
 
      <label for="lucky-number">Lucky Number</label>
-     <input type="number" id="lucky-number">
+     <input type="number" id="lucky-number" placeholder="Enter your lucky number.">
      
      <button id="check-number">Check</button>
      <div id="output-box"></div>
-     <div class="lucky-img">
+     <!-- <div class="lucky-img">
          <img src="images/happy1.svg" alt="lucky">
      </div>
 
      <div class="unlucky-img">
         <img src="images/sad.svg" alt="unlucky">
-    </div>
+    </div> -->
 
     </div>
     <script src="app.js"></script>
+    
+    
 </body>
+
+<footer>
+    <h3>Social Media Presence</h3>
+<div class="icon">
+<a href="https://github.com/Adarsh-Patel-Dev" class="fa fa-github"></a>
+<a href="https://www.linkedin.com/in/adarsh-patel-449a55175" class="fa fa-linkedin"></a>
+<a href="https://twitter.com/AdarshPatelDev?s=08" class="fa fa-twitter"></a>
+<a href="https://instagram.com/git_sit_code" class="fa fa-instagram"></a>
+ 
+</div>
+
+</footer>
+
 </html>
