@@ -19,6 +19,7 @@ h1{
 }
 
 .container{
+    border-radius: 0.5rem;
     max-height: fit-content;
     display: flex;
     flex-direction: column;
@@ -154,7 +155,11 @@ img{
 
 footer{
     background-color: rgba(235, 54, 54, 0.719);
-    margin: 0%;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: -7px;
+    margin-top: 20px;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
    
 }
 
