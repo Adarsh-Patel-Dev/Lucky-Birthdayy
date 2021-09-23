@@ -4,6 +4,7 @@
 
 **NOTE: No numerology has been used in this app😃😃😃**
 
+![lucky bday](https://user-images.githubusercontent.com/81930207/134585427-5626d5e8-d581-4583-a052-7a9528c964bb.png)
 
 
 
