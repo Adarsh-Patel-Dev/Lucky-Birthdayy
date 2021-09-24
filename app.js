@@ -8,9 +8,6 @@ const outputBox = document.querySelector("#output-box");
 const noticeMsg = document.querySelector(".notice");
 const closeButton = document.querySelector("#clos");
 
-const lucky = document.querySelector(".lucky-img");
-const unLucky = document.querySelector(".unlucky-img");
-
 closeButton.addEventListener("click", close);
 
 function close() {
@@ -21,8 +18,13 @@ function close() {
 
 
 function compareValues(sum, luckyNumber) {
-    // hide();
-
+    
+    if(luckyNumber === ''){
+    outputBox.innerText = "Please enter your lucky number and then check 🤨";
+    }else if(luckyNumber <= 0){
+        outputBox.innerText = "Please enter positive lucky number and then check 🤨";
+    }
+    else
     if (sum % luckyNumber === 0) {
         outputBox.innerText = "You are a lucky person!!!🤩";
 
@@ -63,7 +65,7 @@ function check() {
     if (sum && dob) {
         compareValues(sum, luckyNumber.value)
     } else {
-        outputBox.innerText = "please enter both the fields";
+        outputBox.innerText = "Please enter both the fields";
     }
 
 }
